@@ -1,0 +1,8 @@
+working_directory "<%= node[:application][:root] %>"
+pid "<%= node[:unicorn][:pid] %>"
+stderr_path "<%= node[:unicorn][:log] %>"
+stdout_path "<%= node[:unicorn][:log] %>"
+
+listen "/tmp/unicorn.<%= node[:application][:name] %>.sock"
+worker_processes <%= node[:unicorn][:workers] %>
+timeout 30

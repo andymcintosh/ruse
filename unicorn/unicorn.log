@@ -1,0 +1,37 @@
+I, [2012-05-13T22:01:28.797839 #23013]  INFO -- : listening on addr=/tmp/unicorn.todo.sock fd=7
+I, [2012-05-13T22:01:28.800902 #23013]  INFO -- : worker=0 spawning...
+I, [2012-05-13T22:01:28.801559 #23013]  INFO -- : worker=1 spawning...
+I, [2012-05-13T22:01:28.802152 #23016]  INFO -- : worker=0 spawned pid=23016
+I, [2012-05-13T22:01:28.802444 #23016]  INFO -- : Refreshing Gem list
+I, [2012-05-13T22:01:28.808368 #23013]  INFO -- : master process ready
+I, [2012-05-13T22:01:28.816443 #23019]  INFO -- : worker=1 spawned pid=23019
+I, [2012-05-13T22:01:28.819656 #23019]  INFO -- : Refreshing Gem list
+I, [2012-05-13T22:01:30.757320 #23019]  INFO -- : worker=1 ready
+I, [2012-05-13T22:01:30.798329 #23016]  INFO -- : worker=0 ready
+127.0.0.1 - - [13/May/2012 22:03:06] "GET /rails.png HTTP/1.0" 304 - 1.0379
+127.0.0.1 - - [13/May/2012 22:03:07] "GET /rails/info/properties HTTP/1.0" 200 - 0.1005
+D, [2012-05-14T04:23:24.592551 #23013] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2012-05-14T17:59:48.305984 #3282]  INFO -- : listening on addr=/tmp/unicorn.todo.sock fd=7
+I, [2012-05-14T17:59:48.311743 #3282]  INFO -- : worker=0 spawning...
+I, [2012-05-14T17:59:48.312317 #3282]  INFO -- : worker=1 spawning...
+I, [2012-05-14T17:59:48.312868 #3285]  INFO -- : worker=0 spawned pid=3285
+I, [2012-05-14T17:59:48.313066 #3285]  INFO -- : Refreshing Gem list
+I, [2012-05-14T17:59:48.314886 #3282]  INFO -- : master process ready
+I, [2012-05-14T17:59:48.321514 #3288]  INFO -- : worker=1 spawned pid=3288
+I, [2012-05-14T17:59:48.322339 #3288]  INFO -- : Refreshing Gem list
+I, [2012-05-14T17:59:50.373915 #3288]  INFO -- : worker=1 ready
+I, [2012-05-14T17:59:50.483828 #3285]  INFO -- : worker=0 ready
+I, [2012-05-16T02:37:19.944658 #3259]  INFO -- : listening on addr=/tmp/unicorn.todo.sock fd=7
+I, [2012-05-16T02:37:19.951826 #3259]  INFO -- : worker=0 spawning...
+I, [2012-05-16T02:37:19.952364 #3259]  INFO -- : worker=1 spawning...
+I, [2012-05-16T02:37:19.952935 #3262]  INFO -- : worker=0 spawned pid=3262
+I, [2012-05-16T02:37:19.953144 #3262]  INFO -- : Refreshing Gem list
+I, [2012-05-16T02:37:19.956069 #3259]  INFO -- : master process ready
+I, [2012-05-16T02:37:19.958030 #3265]  INFO -- : worker=1 spawned pid=3265
+I, [2012-05-16T02:37:19.958327 #3265]  INFO -- : Refreshing Gem list
+I, [2012-05-16T02:37:22.079969 #3262]  INFO -- : worker=0 ready
+I, [2012-05-16T02:37:22.195177 #3265]  INFO -- : worker=1 ready
+127.0.0.1 - - [16/May/2012 02:37:23] "GET /rails.png HTTP/1.0" 200 6646 1.0782
+127.0.0.1 - - [16/May/2012 02:37:24] "GET /rails/info/properties HTTP/1.0" 200 - 1.0543
+127.0.0.1 - - [16/May/2012 02:37:26] "GET /rails/info/properties HTTP/1.0" 200 - 0.0980
+127.0.0.1 - - [16/May/2012 02:37:27] "GET /rails/info/properties HTTP/1.0" 200 - 0.0162

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo</title>
+  <%= csrf_meta_tags %>
+  <style type="text/css">
+  	body {
+  		background: #222;
+  		font-family: sans-serif;
+  		color: #666;
+  		text-align: center;
+  	}
+  	h1 {
+  		font-size: 72px;
+  	}
+  	#container {
+      width: 400px;
+  		color: #999;
+  		margin: 200px auto 0;
+  	}
+  </style>
+</head>
+<body>
+<h1>Ruse Demo</h1>
+<%= yield %>
+<div id="container"></div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+
+    // make a call to a service that sleeps for 1.second
+    function api_example() {
+      $.getJSON('/api/v1/sample', function(data) {
+        $('#container').html(data.msg);
+         // tell the ruse wrapper that we're done...
+        console.log('::ruse::');
+      }); 
+    }
+
+    // after 1 second, write a message in the container.
+    function timeout_example() {
+      setTimeout(function() {
+        $('#container').html('You did it. You did.');
+        // tell the ruse wrapper that we're done...
+        console.log('::ruse::');
+      }, 1000);
+    }
+
+    // call one of the example functions
+    api_example();
+    // timeout_example();
+	});		
+</script>
+</body>
+</html>
